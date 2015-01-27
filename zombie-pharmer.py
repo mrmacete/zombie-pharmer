@@ -165,8 +165,6 @@ class Nmapper():
 
         opts = self.build_nmap_options(port)
 
-        print "nmap {0}".format(opts)
-
         nm = NmapProcess(hosts, options=opts, fqp=self._whereis("nmap") )
         rc = nm.run()
 
