@@ -43,6 +43,6 @@ Search Shodan for "printer" using the specified API key and probe each result ho
 
 -n NUMPAGES: go through specified amount of Shodan search result pages collecting IPs; 100 results per page
 
--s SEARCHTERMS: search Shodan for term(s) and print each IP address, whether the page returned a response, and if so print the title of the returned page (follows redirects)
+-s SEARCHTERMS: search Shodan for term(s)
 
 -t IPADDRESS/DOMAIN/IPRANGE: try hitting this domain, IP, or IP range instead of using Shodan to populate the targets list and return response information
