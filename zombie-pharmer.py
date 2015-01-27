@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Concurrently open either Shodan search results, a specified IP range, a
+Open either Shodan search results, a specified IP range, a
 single IP, or domain and perform an ipidseq probing using nmap. Note that
 for a successful probing, the command must be ran as root.
 
