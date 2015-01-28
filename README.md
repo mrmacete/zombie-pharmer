@@ -1,6 +1,6 @@
 # zombie-pharmer
 
-Open either Shodan search results, a specified IP range, a
+Scan either Shodan search results, a specified IP range, a
 single IP, or domain and perform an [ipidseq probing using nmap](https://nmap.org/nsedoc/scripts/ipidseq.html).
 
 Shamefully inspired from [device-pharmer](https://github.com/DanMcInerney/device-pharmer) by Dan McInerney. The code is simple and meant to be auditable. The parallelism is achieved using nmap's one.
