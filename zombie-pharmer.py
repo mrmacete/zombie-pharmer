@@ -146,6 +146,8 @@ def split_target(target):
 class Nmapper():
     def __init__(self, args):
         self.search = args.shodansearch
+        self.targets = args.targets
+        self.ipfile = args.ipfile
 
         self.nmap_options_fmt = self.build_nmap_options_fmt(args.concurrent)
 
